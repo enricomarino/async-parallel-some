@@ -1,3 +1,10 @@
+/* !
+ * parallel-some
+ * async parallel some
+ *
+ * @copyright 2013 Enrico Marino
+ * @license MIT
+ */
 
 /*
  * Expose `parallel_some`
