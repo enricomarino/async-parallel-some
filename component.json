@@ -1,0 +1,13 @@
+{
+  "name": "parallel-some",
+  "repo": "component-async/parallel-some",
+  "version": "0.0.1",
+  "description": "async parallel some",
+  "keywords": [],
+  "scripts": ["index.js"],
+  "dependencies": {
+  },
+  "development": {
+  },
+  "license": "MIT"
+}
