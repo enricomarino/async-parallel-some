@@ -1,10 +1,10 @@
-# parallel-some
+# async-parallel-some
 
 async parallel some
 
 ## Installation
 
-    $ component install component-async/parallel-some
+    $ component install enricomarino/async-parallel-some
 
 ## License
 
