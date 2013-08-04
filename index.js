@@ -1,19 +1,12 @@
-/* !
- * parallel-some
+/**!
+ * async-parallel-some
  * async parallel some
  *
  * @copyright 2013 Enrico Marino
  * @license MIT
  */
 
-/*
- * Expose `parallel_some`
- */
- 
-module.exports = parallel_some;
-
-/*
- * parallel_some
+/**
  * Test if at least one item in the array pass 'iterator' async test
  *
  * @param {Array} array array
@@ -21,8 +14,8 @@ module.exports = parallel_some;
  * @param {Function} callback callback
  * @api public
  */
-
-function parallel_some(array, iterator, callback) {
+ 
+module.exports = function (array, iterator, callback) {
   var completed = 0;
   var len = array.length;
   var i;
@@ -48,4 +41,4 @@ function parallel_some(array, iterator, callback) {
   for (i = 0; i < len; i += 1) {
     iterator(array[i], complete);
   }
-}
+};
